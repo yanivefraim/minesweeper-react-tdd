@@ -1,0 +1,45 @@
+{
+  "name": "wix-stack-react-example",
+  "version": "0.0.0",
+  "description": "React example application using new Wix stack.",
+  "wix": {
+    "entryFile": "./app/index.js"
+  },
+  "scripts": {
+    "start": "wix-web-build start",
+    "build": "wix-web-build build; petri-specs build",
+    "test": "wix-web-build test",
+    "unit": "wix-web-build unit",
+    "e2e": "wix-web-build e2e",
+    "release": ":"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wix/wix-stack-angular2-example.git"
+  },
+  "keywords": [
+    "react",
+    "wix-stack",
+    "example"
+  ],
+  "author": "Yaniv Efraim <yanivef@wix.com> (http://github.com/yanivefraim)",
+  "license": "MIT",
+  "devDependencies": {
+    "enzyme": "^2.3.0",
+    "expect": "^1.18.0",
+    "petri-specs": "^1.0.0",
+    "phantomjs-polyfill": "0.0.2",
+    "react-addons-test-utils": "^0.14.8",
+    "wix-statics-parent": "*",
+    "wix-web-build": "*"
+  },
+  "dependencies": {
+    "babel-preset-react": "^6.5.0",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.4.1",
+    "redux": "^3.5.2"
+  },
+  "private": true
+}

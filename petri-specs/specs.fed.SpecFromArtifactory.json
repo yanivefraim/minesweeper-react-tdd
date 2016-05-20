@@ -1,0 +1,11 @@
+{
+  "specs.fed.SpecFromArtifactory": {
+    "scope": "shahata-temp",
+    "owner": "shahart@wix.com",
+    "onlyForLoggedInUsers": true,
+    "testGroups": [
+      "true",
+      "false"
+    ]
+  }
+}
